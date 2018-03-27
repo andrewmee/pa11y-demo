@@ -1,0 +1,24 @@
+{
+  "defaults": {},
+  "urls": [
+    {
+      "url": "http://www.asos.com/discover/asos-scout/"
+    },
+    {
+      "url": "http://www.asos.com/discover/asos-scout/",
+      "rootElement": "#creative-react-app",
+      "actions": [
+        "screen capture screenshots/landing-page.png"
+      ]
+    },
+    {
+      "url": "http://www.asos.com/discover/asos-scout/#SubmitAge",
+      "rootElement": "#creative-react-app",
+      "actions": [
+        "click element .src-components-Pages-Landing-Landing_getStartedButton",
+        "wait for fragment to be #SubmitAge",
+        "screen capture screenshots/submit-age.png"
+      ]
+    }
+  ]
+}
