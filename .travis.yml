@@ -1,5 +1,8 @@
 # Build matrix
 language: node_js
+dist: trusty
+sudo: required
+
 matrix:
   include:
 
@@ -7,15 +10,15 @@ matrix:
     - node_js: '6'
       env: MODE=lint
 
-    # Pa11y check only in Node.js 6
-    - node_js: '6'
-      env: MODE=pa11y
-
     # Run tests in Node.js 6
     - node_js: '6'
 
     # Run tests in Node.js 8
     - node_js: '8'
+
+    # Pa11y check only in Node.js 8
+    - node_js: '8'
+      env: MODE=pa11y
 
 # Build script
 script:
