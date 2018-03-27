@@ -1,5 +1,6 @@
 # Build matrix
 language: node_js
+dist: trusty
 sudo: required
 
 matrix:
