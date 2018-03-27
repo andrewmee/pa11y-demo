@@ -5,7 +5,7 @@
       "url": "http://www.asos.com/discover/asos-scout/"
     },
     {
-      "url": "http://www.asos.com/discover/asos-scout/",
+      "url": "http://www.asos.com/discover/asos-scout/#Landing",
       "rootElement": "#creative-react-app",
       "actions": [
         "screen capture screenshots/landing-page.png"
